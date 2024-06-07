@@ -95,8 +95,7 @@ header ul.last-links li a {
 
 main {
     display: flex;
-    background-color: beige;
-    padding: 1% 15%;
+    padding: 2.5% 15%;
     justify-content: space-between;
 }
 
@@ -105,7 +104,7 @@ main img {
 }
 
 main .left {
-    width: 85%
+    width: 85%;
 }
 
 main .first-section {
@@ -162,10 +161,6 @@ main .first-section .two-images {
     justify-content: space-between;
 }
 
-main .first-section .two-images .img-container {
-    background-color: rgb(129, 185, 185);
-}
-
 main .first-section .two-images .img-container img {
     width: 100%;
     height: 100%;
@@ -176,8 +171,55 @@ main .first-section .two-images .first {
 }
 
 main .first-section .two-images .second {
-    background-color: rgb(194, 129, 45);
     width: 70%
+}
+
+
+
+
+
+
+
+main .movie-info {
+    display: flex;
+}
+
+main .movie-info section {
+    width: 40%;
+    text-align: end;
+    margin-top: 2em;
+}
+
+main .movie-info section a {
+    text-decoration: none;
+    background-color: #f2c318;
+    border-bottom: outset 3px #b79312;
+    border-right: outset 2px #b79312;
+    border-radius: 10px;
+    padding: 0.7em 1.3em;
+    font-size: 1.2em;
+    color: #121212;
+}
+
+main .movie-info table {
+    border-spacing: 0 2em;
+    width: 60%;
+}
+
+main .movie-info table tr td {
+    font-size: 1.2em;
+}
+
+main .movie-info table tr td:nth-child(1) {
+    font-size: 1.2em;
+    color: #797979;
+    font-weight: 600;
+    display: flex;
+}
+
+main .movie-info table td:nth-child(2) {
+    padding-left: 2em;
+    color: #c3c3c3;
 }
 
 
