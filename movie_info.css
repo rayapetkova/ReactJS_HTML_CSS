@@ -297,13 +297,13 @@ div.second-main .one-section .cards .card img {
 
 
 
-div.celebs .cards .card img {
+div.celebs .cards .card img, div.photos .cards .card img {
     object-fit: cover;
     height: 15em;
     width: 15em;
 }
 
-div.celebs .cards .card .name-container p {
+div.celebs .cards .card .name-container p, div.photos .cards .card .name-container p {
     color: #c3c3c3;
     font-size: 1.2em;
     white-space: nowrap;
@@ -315,14 +315,82 @@ div.celebs .cards .card .name-container p {
     margin-top: 0.5em;
 }
 
-div.celebs .cards .card .name-container p:nth-child(1) {
+div.celebs .cards .card .name-container p:nth-child(1), div.photos .cards .card .name-container p:nth-child(1) {
     color: #f4f4f4;
 }
 
-div.celebs .cards .card .name-container p:nth-child(2) {
+div.celebs .cards .card .name-container p:nth-child(2), div.photos .cards .card .name-container p:nth-child(2) {
     color: #858585;
     font-size: 1em;
 }
+
+
+
+
+div.photos .one-section .cards .card {
+    width: 23%
+}
+
+
+
+
+
+
+
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews .title .left h2 {
+    padding: 0;
+    margin: 0;
+    color: #c3c3c3;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.reviews .title a {
+    text-decoration: none;
+    background-color: #151515;
+    color: #797979;
+    border-radius: 10px;
+    font-size: 1.3em;
+    padding: 0.6em 1.3em;
+}
+
+.reviews .title .left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.reviews .title .left a {
+    background-color: #242424;
+}
+
+.reviews .review-boxes {
+    background-color: #858585;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
