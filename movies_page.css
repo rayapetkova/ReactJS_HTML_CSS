@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    background-color: #0f0f10;
+}
+
+header {
+    background-color: #080808;
+    display: flex;
+    padding: 1% 15%;
+}
+
+header section.img-logo {
+    width: 6%;
+    display: flex;
+    height: 100%;
+}
+
+header section.img-logo img {
+    width: 100%
+}
+
+header nav {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 25%;
+    justify-content: center;
+}
+
+header nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav ul li {
+    list-style: none;
+    text-decoration: none
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #C3C3C3;
+}
+
+header section.search-bar-section {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+header section.search-bar-section input {
+    width: 100%;
+    height: 95%;
+    background-color: #222222;
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    font-family: inherit;
+    font-size: 1.1em;
+}
+
+header ul.last-links {
+    display: flex;
+    padding: 0;
+    margin-left: 3%;
+    width: 11%;
+    justify-content: space-between;
+}
+
+header ul.last-links li {
+    list-style: none;
+}
+
+header ul.last-links li a {
+    text-decoration: none;
+    color: #C3C3C3;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+
+.main {
+    padding: 2.5% 15%;
+}
+
+.main section.first {
+    display: flex;
+}
+
+.main section.first .left {
+    width: 100%;
+    position: relative;
+}
+
+.main section.first .left .play-info {
+    position: absolute;
+    right: 0;
+    bottom: -5%;
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+}
+
+.main section.first .left .play-info img {
+    width: 20%;
+    margin-right: 4%;
+}
+
+.main section.first .left .play-info .title h2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+.main section.first .left .play-info .title h4 {
+    color: #797782;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6em;
+}
+
+
+.main section.first .left img.first-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60%; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(15, 15, 16, 1) 80%);
+    pointer-events: none;
+}
+
+.main section.first .left img.second-img {
+    position: absolute;
+    width: 25%;
+    left: 0;
+    margin-left: 3%;
+    bottom: -5%;
+}
+
+
+
+
+.main section.first .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.main section.first .right .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4em;
+}
+
+.main section.first .right .title a {
+    background-color: #34313d;
+    border-radius: 10px;
+    font-family: inherit;
+    text-decoration: none;
+    color: #C3C3C3;
+    font-size: 1.1em;
+    padding: 0.6em 1em;
+}
+
+.main section.first .right .title {
+    color: #ffffff;
+}
+
+
+.main section.first .right .title img {
+    width: 5%;
+    height: 5%;
+    padding: 0;
+}
+
+.main section.first .right .title .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main section.first .right .title .text h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+.main section.first .right .featured-images {
+    align-self: flex-end;
+    height: 25%;
+}
+
+.main section.first .right .featured-images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+div.second-main {
+    margin: 5% 15%;
+}
+
+div.second-main .one-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+}
+
+div.second-main .one-section .title {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+
+div.second-main .one-section .title a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.second-main .one-section .title .buttons {
+    text-align: end;
+}
+
+div.second-main .one-section .title h2 {
+    padding: 0;
+    margin: 0;
+    color: #c3c3c3;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+div.second-main .one-section .title a img {
+    width: 20%;
+}
+
+div.second-main .one-section .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.second-main .one-section .cards .card {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #151515;
+}
+
+div.second-main .one-section .cards .card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.second-main .one-section .cards .card > p {
+    color: #c3c3c3;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+div.second-main .one-section .cards .card .star-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+div.second-main .one-section .cards .card .star-div .img-container {
+    width: 17%;
+    margin-right: 5%;
+    display: flex;
+}
+
+div.second-main .one-section .cards .card .star-div p {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+    font-size: 1em;
+    color: #c3c3c3;
+}
+
+div.second-main .one-section .cards .card a {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    font-family: inherit;
+    text-decoration: none;
+    color: #C3C3C3;
+    font-size: 1em;
+    padding: 0.3em 1em;
+    border-top: 3px solid #303030;
+    width: 90%;
+    font-weight: 300;
+}
+
+div.second-main .one-section .cards .card .watchlist {
+    padding: 0.6em 0.1em;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1em;
+    color: rgb(87 153 239);
+    font-weight: 500;
+    background-color: #2b2b2b;
+}
+
+div.second-main .one-section .cards .card img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+div.celebs .cards .card img {
+    object-fit: cover;
+    height: 15em;
+    width: 15em;
+}
+
+div.celebs .cards .card .name-container p {
+    color: #c3c3c3;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    padding: 2.5% 25%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #080808;
+}
+
+footer section ul li {
+    list-style: none;
+}
+
+footer section ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer section ul li a, footer section ul li {
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    color: #c3c3c3;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+
+
+
+
+footer li {
+    color: rgb(209, 144, 23);
+}
