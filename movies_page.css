@@ -91,6 +91,9 @@ header ul.last-links li a {
 
 
 
+
+
+
 .main {
     padding: 2.5% 15%;
 }
@@ -228,6 +231,9 @@ header ul.last-links li a {
 
 
 
+
+
+
 div.second-main {
     margin: 5% 15%;
 }
@@ -354,6 +360,8 @@ div.second-main .one-section .cards .card img {
 
 
 
+
+
 div.celebs .cards .card img {
     object-fit: cover;
     height: 15em;
@@ -371,6 +379,8 @@ div.celebs .cards .card .name-container p {
     margin: 0;
     margin-top: 0.5em;
 }
+
+
 
 
 
@@ -408,9 +418,6 @@ footer section ul li a, footer section ul li {
     font-size: 1.1em;
     margin-bottom: 1em;
 }
-
-
-
 
 footer li {
     color: rgb(209, 144, 23);
