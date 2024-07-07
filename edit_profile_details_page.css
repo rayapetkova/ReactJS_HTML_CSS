@@ -164,11 +164,18 @@ header ul.last-links li a {
 }
 
 .right form .row .field input {
-    border: solid 1px rgb(195, 191, 200);
+    border: solid 1px rgb(160, 159, 161);
     border-radius: 3px;
     padding: 3% 3%;
     color: rgb(107, 107, 107);
     font-size: 1.1em;
+    background-color: rgba(240, 248, 255, 0.849);
+}
+
+.right form .row .field input:focus {
+    background-color: rgb(240, 248, 255);
+    outline: none;
+    color: black;
 }
 
 .right form .bio-row h3 {
@@ -185,12 +192,19 @@ header ul.last-links li a {
 }
 
 .right form .bio-row textarea {
-    border: solid 1px rgb(195, 191, 200);
+    border: solid 1px rgb(160, 159, 161);
     border-radius: 3px;
     font-family: inherit;
     padding: 1% 1%;
     color: rgb(107, 107, 107);
     font-size: 1.1em;
+    background-color: rgba(240, 248, 255, 0.849);
+}
+
+.right form .bio-row textarea:focus {
+    background-color: rgb(240, 248, 255);
+    outline: none;
+    color: black;
 }
 
 .right form .update-button {
@@ -208,6 +222,8 @@ header ul.last-links li a {
     cursor: pointer;
     background-color: rgb(206, 167, 29);
 }
+
+
 
 
 
